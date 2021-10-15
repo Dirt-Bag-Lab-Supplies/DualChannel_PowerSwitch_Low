@@ -226,57 +226,57 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x04 J2
 U 1 1 616ADEEC
-P 3400 3850
-F 0 "J2" H 3400 4050 50  0000 C CNN
-F 1 "Conn_01x04" H 3400 3550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 3400 3850 50  0001 C CNN
-F 3 "~" H 3400 3850 50  0001 C CNN
-	1    3400 3850
+P 2000 2850
+F 0 "J2" H 2000 3050 50  0000 C CNN
+F 1 "Conn_01x04" H 2000 2550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 2000 2850 50  0001 C CNN
+F 3 "~" H 2000 2850 50  0001 C CNN
+	1    2000 2850
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:VBUS #PWR05
 U 1 1 616AE9B3
-P 3650 3650
-F 0 "#PWR05" H 3650 3500 50  0001 C CNN
-F 1 "VBUS" H 3650 3800 50  0000 C CNN
-F 2 "" H 3650 3650 50  0001 C CNN
-F 3 "" H 3650 3650 50  0001 C CNN
-	1    3650 3650
+P 2250 2650
+F 0 "#PWR05" H 2250 2500 50  0001 C CNN
+F 1 "VBUS" H 2250 2800 50  0000 C CNN
+F 2 "" H 2250 2650 50  0001 C CNN
+F 3 "" H 2250 2650 50  0001 C CNN
+	1    2250 2650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 3850 3650 3850
+	2200 2850 2250 2850
 Wire Wire Line
-	3650 3850 3650 3750
+	2250 2850 2250 2750
 Wire Wire Line
-	3600 3750 3650 3750
-Connection ~ 3650 3750
+	2200 2750 2250 2750
+Connection ~ 2250 2750
 Wire Wire Line
-	3650 3750 3650 3650
+	2250 2750 2250 2650
 $Comp
 L power:GND #PWR06
 U 1 1 616AF991
-P 3650 4150
-F 0 "#PWR06" H 3650 3900 50  0001 C CNN
-F 1 "GND" H 3650 4000 50  0000 C CNN
-F 2 "" H 3650 4150 50  0001 C CNN
-F 3 "" H 3650 4150 50  0001 C CNN
-	1    3650 4150
+P 2250 3150
+F 0 "#PWR06" H 2250 2900 50  0001 C CNN
+F 1 "GND" H 2250 3000 50  0000 C CNN
+F 2 "" H 2250 3150 50  0001 C CNN
+F 3 "" H 2250 3150 50  0001 C CNN
+	1    2250 3150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 4150 3650 4050
+	2250 3150 2250 3050
 Wire Wire Line
-	3650 3950 3600 3950
+	2250 2950 2200 2950
 Wire Wire Line
-	3600 4050 3650 4050
-Connection ~ 3650 4050
+	2200 3050 2250 3050
+Connection ~ 2250 3050
 Wire Wire Line
-	3650 4050 3650 3950
-Text Notes 3700 3800 0    50   ~ 0
+	2250 3050 2250 2950
+Text Notes 2300 2800 0    50   ~ 0
 >3A Copper Pour
-Text Notes 3700 4000 0    50   ~ 0
+Text Notes 2300 3000 0    50   ~ 0
 >3A Copper Pour
 $Comp
 L DBLS_Mechanical:SCREW_6-32_POWER M2
@@ -500,4 +500,32 @@ F 4 "DNI" H 2100 6800 50  0001 C CNN "place"
 	1    2100 6800
 	1    0    0    -1  
 $EndComp
+Text Notes 1850 2800 0    50   ~ 0
+1
+Text Notes 1850 2900 0    50   ~ 0
+2
+Text Notes 1850 3000 0    50   ~ 0
+3
+Text Notes 1850 3100 0    50   ~ 0
+4
+Text Notes 3250 3100 0    50   ~ 0
+5
+Text Notes 3250 3000 0    50   ~ 0
+6
+Text Notes 3250 2900 0    50   ~ 0
+7
+Text Notes 3250 2800 0    50   ~ 0
+8
+Text Notes 2150 1250 0    50   ~ 0
+9
+Text Notes 2150 1500 0    50   ~ 0
+10
+Text Notes 6200 1850 0    50   ~ 0
+11
+Text Notes 6200 2050 0    50   ~ 0
+12
+Text Notes 6150 2950 0    50   ~ 0
+13
+Text Notes 6150 3200 0    50   ~ 0
+14
 $EndSCHEMATC
